@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CyberGuard | Hochpräzisions-Cracker</title>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="terminal-overlay">
+        <div id="log-scroll" style="color: var(--success); font-size: 0.7rem; width: 300px; height: 100px; overflow: hidden;"></div>
+        <div class="matrix-text" id="cracking-display"></div>
+        <div style="color: var(--success); letter-spacing: 5px;">ENTSCHLÜSSELE...</div>
+    </div>
+    <div class="container">
+        <h1>Systemeinbruch-Sim</h1>
+        <div class="input-group">
+            <input id="passwordInput" maxlength="24" placeholder="PASSWORT EINGEBEN" type="text" />
+        </div>
+        <button class="crack-btn" id="crackBtn">Angriff ausführen</button>
+        <div class="results" id="resultsArea" style="display: none;">
+            <div class="result-row">
+                <span class="label">Zeit zum Knacken</span>
+                <span class="val highlight" id="timeVal">-</span>
+            </div>
+            <div class="result-row">
+                <span class="label">Benötigte Versuche</span>
+                <span class="val" id="attemptsVal">-</span>
+            </div>
+            <div class="result-row">
+                <span class="label">Sicherheitsbewertung</span>
+                <span class="val" id="ratingVal">-</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
