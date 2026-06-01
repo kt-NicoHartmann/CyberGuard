@@ -45,7 +45,7 @@ git clone https://github.com/kt-NicoHartmann/CyberGuard.git
 Navigate into the project directory and open the HTML file in your preferred web browser.
 
 ```bash
-cd CyberGuard/crack_pw_sim_en
+cd CyberGuard/crack_pw_sim_en/
 # On macOS/Linux:
 open crack_pw_sim_en.html
 # On Windows:
