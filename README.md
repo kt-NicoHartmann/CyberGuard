@@ -47,9 +47,9 @@ Navigate into the project directory and open the HTML file in your preferred web
 ```bash
 cd CyberGuard
 # On macOS/Linux:
-open index.html
+open crack_pw_sim_en.html
 # On Windows:
-start index.html
+start crack_pw_sim_en.html
 ```
 
 Alternatively, use the **Live Server** extension in VS Code to host it locally.
